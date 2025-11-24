@@ -1,0 +1,18 @@
+#level3task14
+#include <iostream>
+using namespace std;
+int z;
+void eded(int a=100){
+    for(int s=1;s<=100;s++){
+        if(s%3==0 && s%7==0)
+          cout<<"ededin boluneni: "<<s<<endl;
+    }
+    
+      
+}
+
+int main() {
+   int x;
+   eded(x);
+    return 0;
+}
