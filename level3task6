@@ -1,0 +1,23 @@
+#level3task6
+#include <iostream>
+using namespace std;
+int z;
+int eded(int a,int s=0){
+    for(int z=1;z<=a;z++){
+        s+=z;
+    
+    }
+    
+    
+    return s;
+      
+}
+
+int main() {
+   int x;
+   cout<<"eded daxil edin: "<<endl;
+   cin>>x;
+   cout<<"edede qeder olan ededlerin cemi: "<<eded(x)<<endl;
+
+    return 0;
+}
