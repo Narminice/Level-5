@@ -1,0 +1,22 @@
+level1_task3
+#include <iostream>
+#include<cmath>
+using namespace std;
+int kvadrati(int a){
+   return pow(a,2);
+}
+int kubu(int a){
+    return pow(a,3);
+}
+
+
+
+  
+int main() {
+    int x;
+   cout<<"eded daxil edin: "<<endl;
+   cin>>x;
+   cout<<"kvadratı: "<<kvadrati(x)<<endl;
+   cout<<"kubu: "<<kubu(x)<<endl;
+    return 0;
+}
