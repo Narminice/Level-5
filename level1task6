@@ -1,0 +1,12 @@
+#level1task6
+#include <iostream>
+using namespace std;
+double Ortalama(double a, double b, double c) {
+return (a + b + c) / 3.0;
+}
+int main() {
+double x, y, z;
+cout << "3 eded daxil edin: ";
+cin >> x >> y >> z;
+cout << "Ortalama: " << Ortalama(x, y, z);
+}
