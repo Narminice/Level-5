@@ -1,0 +1,19 @@
+#level2task4
+#include <iostream>
+using namespace std;
+
+void eded(int a){
+    if(a%2==0)
+    cout<<"eded cutdur"<<endl;
+    else
+    cout<<"eded tekdir"<<endl;
+}
+
+int main() {
+   int x;
+   cout<<" eded daxil edin: "<<endl;
+   cin>>x;
+   eded(x);
+
+    return 0;
+}
